@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">WallApp</string>
+    <string name="app_logo">App Logo</string>
+
+    <string-array name="categories">
+        <item>None</item>
+        <item>Buildings</item>
+        <item>City</item>
+        <item>Clock</item>
+        <item>Coffee</item>
+        <item>Computer</item>
+        <item>Couple</item>
+        <item>Family</item>
+        <item>Food</item>
+        <item>Girl</item>
+        <item>Landscape</item>
+        <item>Love</item>
+        <item>Man</item>
+        <item>Mountains</item>
+        <item>Music</item>
+        <item>Nature</item>
+        <item>Office</item>
+        <item>Tree</item>
+        <item>Weddings</item>
+    </string-array>
+
+    <string name="settings">Settings</string>
+    <string name="error_text">Error</string>
+    <string name="download_image_first">Download image first</string>
+    <string name="generate_image_first">Generate image first</string>
+    <string name="share_image">Share</string>
+
+    <string name="set_as_type">Set as type</string>
+
+    <string-array name="set_as_choice">
+        <item>WallApp</item>
+        <item>Album</item>
+    </string-array>
+
+    <string-array name="source">
+        <item>Unsplash</item>
+        <item>Bing</item>
+        <item>Other Source</item>
+    </string-array>
+
+    <string-array name="quality">
+        <item>Best fit</item>
+        <item>HD (720p)</item>
+        <item>Full HD (1080p)</item>
+        <item>Crazy UHD (1680p)</item>
+    </string-array>
+
+<!--
+    <string-array name="interval">
+        <item>None</item>
+        <item>Daily</item>
+        <item>Weekly</item>
+    </string-array>
+-->
+
+    <string-array name="edit_items">
+        <item>Blur</item>
+        <item>Grayscale</item>
+        <item>Low Poly</item>
+        <item>Darken</item>
+    </string-array>
+
+    <string name="download_success">Downloaded successfully!</string>
+    <string name="download_failed">Download failed!</string>
+    <string name="welcome_message">Welcome, click the right button to expand</string>
+    <string name="welcome_message_fingerprint">Welcome to Our App! In order to access the app, authenticate using your registered fingerprint on this device..</string>
+
+    <string name="wallpaper_set_success">Wallpaper set successfully!</string>
+
+    <string name="no_network_connection">No Network Connection</string>
+    <string name="no_network_message">Network connection must be switched on to run this application</string>
+
+    <string name="about_details">A project by Eve, Sinzii and Stefan!</string>
+    <string name="rights_reserved">Proiect Mobile 2019</string>
+    <string name="open_source_licenses">Open Source</string>
+
+</resources>

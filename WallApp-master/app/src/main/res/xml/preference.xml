@@ -1,0 +1,55 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="User controls">
+
+        <ListPreference
+            android:defaultValue="None"
+            android:dialogTitle="Categories"
+            android:enabled="false"
+            android:entries="@array/categories"
+            android:entryValues="@array/categories"
+            android:key="category"
+            android:title="Categories" />
+
+        <ListPreference
+            android:defaultValue="WallApp"
+            android:entries="@array/set_as_choice"
+            android:entryValues="@array/set_as_choice"
+            android:key="set_as"
+            android:title="@string/set_as_type" />
+
+        <ListPreference
+            android:defaultValue="Unsplash"
+            android:entries="@array/source"
+            android:entryValues="@array/source"
+            android:key="source"
+            android:title="Source" />
+
+        <ListPreference
+            android:defaultValue="Best fit"
+            android:entries="@array/quality"
+            android:entryValues="@array/quality"
+            android:key="quality"
+            android:title="Quality" />
+
+        <!--<ListPreference
+            android:defaultValue="None"
+            android:entries="@array/interval"
+            android:entryValues="@array/interval"
+            android:key="interval"
+            android:title="Refresh Interval" />-->
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="About">
+
+        <Preference
+            android:key="open_licenses"
+            android:title="Open Source Licenses" />
+
+        <Preference
+            android:key="about"
+            android:title="App info" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
