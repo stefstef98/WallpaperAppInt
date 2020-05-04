@@ -50,9 +50,9 @@ public class CommonUtils {
         snackbar.setMaxWidth(3000);
         View snackbarView = snackbar.getView();
         snackbarView.setBackgroundColor(ContextCompat.getColor(context, R.color.snack_back));
-        TextView textView = (TextView)
-                snackbarView.findViewById(com.androidadvance.topsnackbar.R.id.snackbar_text);
-        textView.setTextColor(ContextCompat.getColor(context, R.color.textColorPrimary2));
+       /* *//*TextView textView = (TextView)
+                snackbarView.findViewById(com.androidadvance.topsnackbar.R.id.snackbar_text);*//*
+        textView.setTextColor(ContextCompat.getColor(context, R.color.textColorPrimary2));*/
         snackbar.show();
     }
 }
